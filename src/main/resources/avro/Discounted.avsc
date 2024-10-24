@@ -1,0 +1,19 @@
+{
+  "namespace": "io.slurm.clients.discounted",
+  "type": "record",
+  "name": "Discounted",
+  "fields": [
+    {
+      "name": "item_id",
+      "type": "string"
+    },
+    {
+      "name": "original_price",
+      "type": "int"
+    },
+    {
+      "name": "discounted_price",
+      "type": "int"
+    }
+  ]
+}

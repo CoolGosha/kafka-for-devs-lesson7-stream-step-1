@@ -1,0 +1,15 @@
+{
+  "namespace": "io.slurm.clients.discountsize",
+  "type": "record",
+  "name": "DiscountSize",
+  "fields": [
+    {
+      "name": "item_id",
+      "type": "string"
+    },
+    {
+      "name": "discount_percent",
+      "type": "int"
+    }
+  ]
+}
